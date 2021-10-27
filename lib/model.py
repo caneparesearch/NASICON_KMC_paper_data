@@ -10,9 +10,8 @@ import glob
 import sys
 from copy import deepcopy
 sys.path.append('./')
-from kmc_tools import load_project,save_project
 import numba as nb
-from numba.typed import List
+import pickle
 
 class LocalClusterExpansion:
     """
@@ -327,3 +326,15 @@ class Fitting:
     
     def save_file(self):
         save_project(self,'fitting_results.pkl')
+
+
+def save_project(project,fname):
+    print('Saving:',fname)
+    with open(fname,'wb') as fhandle:
+        pickle.dump(project,fhandle)
+
+def load_project(fname):
+    print('Loading:',fname)
+    with open(fname,'rb') as fhandle:
+        obj = pickle.load(fhandle)
+    return obj
