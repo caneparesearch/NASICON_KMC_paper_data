@@ -3,7 +3,7 @@ Source code to reproduce NASICON KMC simulation
 Author: Zeyu Deng
 Email: dengzeyu@gmail.com
 
-# Prerequisition:
+# Prerequisites Python libraries:
 python numpy scipy pandas numba tables
 
 # Steps:
