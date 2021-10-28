@@ -7,7 +7,7 @@ Email: dengzeyu@gmail.com
 python numpy scipy pandas numba tables
 
 # Steps:
-1. Go into kmc folder
+1. Go into the kmc folder
 2. python run_kmc.py comp structure_index T 
 comp is the parametric composition from 0 to 1, for Na<sub>1+x</sub>Zr<sub>2</sub>Si<sub>x</sub>P<sub>3-x</sub>O<sub>12</sub>, x = 3-3*comp
 structure_index can be any integer from 0 to 49
