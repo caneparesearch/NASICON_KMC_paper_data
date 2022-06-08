@@ -3,13 +3,10 @@ Source code to reproduce NASICON KMC simulation
 Author: Zeyu Deng
 Email: dengzeyu@gmail.com
 
-<<<<<<< HEAD
 # Prerequisite Packages:
 python numpy scipy pandas numba tables pymatgen
-=======
 # Prerequisites Python libraries:
 python numpy scipy pandas numba tables
->>>>>>> 416325f2bf3209c1e433b579e18bd79fafb1a5dd
 
 # Steps:
 1. Go into the kmc folder
